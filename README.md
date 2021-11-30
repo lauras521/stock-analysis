@@ -31,7 +31,7 @@ First all 12 tickers to be analyzed were identified in both codes.  Image below.
   <img src = https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Initialize_Tickers.PNG>
 </p>
 
- Original Code 2018            |  Refactored Code 2018
+ Original Code             |  Refactored Code 
 :-------------------------:|:-------------------------:
 ![](https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Original_Code_For_Loop_and_If_Statements.PNG)  |  ![](https://github.com/lauras521/stock-analysis/blob/d13f2a968c731db79ca7deb551eef85fd3141f0d/Resources/Refractored_Code_For_Loop_and_If_Statements.PNG)
 
