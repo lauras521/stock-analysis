@@ -23,25 +23,35 @@ Original Code 2018            |  Refractored Code 2018
 ![](https://github.com/lauras521/stock-analysis/blob/698fc1ed79afa3468d76f15d6067abb3b8b28d3c/Resources/VBA_Challenge_2018_Not_Refractored.PNG)  |  ![](https://github.com/lauras521/stock-analysis/blob/225a6692aa0f4ae5d9132c2828bee8dae3b0502a/Resources/VBA_Challenge_2018.PNG)
 
 
-Steve first wrote one set of code ("Original Code") and then updated a Reractored Code to try and speed up the analysis.  You can see the main differences between the codes below.  He updated his for loop format to iterate more effiicnetly in the Refractored Code to cut time out of the analysis.  In the images above you can see the Refractored Code ran faster than the Original Code.  
+Steve first wrote an Original Code and then updated a Reractored Code to try and speed up the analysis.  In the images above, you can see the Refractored Code ran faster than the Original Code.  
+
+First all 12 tickers to be analyzed were identified in both codes.  Image below.  The main differences between the codes is highlighted in the table below.  If the code is too small to read the image can be clicked on to be enlarged. Steve updated his for loop format to iterate more effiicnetly in the Refractored Code to cut time out of the analysis. In the original code all 12 tickers were looped through and within each ticker loop all rows were looped through once to find tickerVolume, again to find startingPrice, and again to find EndingPrice.  Then data was outputed before moving to the next ticker.  In the new Refractored code as you loop through each row tickerVolumes 
 
 
 <p align="center">
-  <https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Initialize_Tickers.PNG>
+  <img src = https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Initialize_Tickers.PNG>
 </p>
 
  Original Code 2018            |  Refractored Code 2018
 :-------------------------:|:-------------------------:
-![](https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Original_Code_For_Loop_and_If_Statements.PNG)  |  ![](https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Refractored_Code_For_Loop_and_If_Statements.PNG)
+![](https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Original_Code_For_Loop_and_If_Statements.PNG)  |  ![](https://github.com/lauras521/stock-analysis/blob/d13f2a968c731db79ca7deb551eef85fd3141f0d/Resources/Refractored_Code_For_Loop_and_If_Statements.PNG)
 
   
 ## Summary: 
 ### In a summary statement, address the following questions.
 #### What are the advantages or disadvantages of refactoring code?
 &emsp; Advantages of Refractoring Code
-* faster
+* code can run faster
+* code looks cleaner for analysis by others and sharing/editing purposes
 
 &emsp; Disadvantages of Refractoring Code
-* hard to edit and keep track of
+* it takes time to refractor code so if there isn't a big benefit for doing the work it could take up unnecessary time
+* time is money in the workplace and lost time has real cost
 
 #### How do these pros and cons apply to refactoring the original VBA script?
+&emsp; Advantage of Refractoring the Stock_Analysis VBA Code
+* The code did run faster and if you were to want to anlyze all tickers in the stock market or multiple years of data this time savings could pay off.
+
+&emsp; Disadvantage of Refractoring the Stock_Analysis VBA Code
+* The code only took 1 second to run in the first place so while it did run faster in the Refractored code for this analysis it wasn't necessary.
+
