@@ -26,7 +26,15 @@ Original Code 2018            |  Refractored Code 2018
 Steve first wrote one set of code ("Original Code") and then updated a Reractored Code to try and speed up the analysis.  You can see the main differences between the codes below.  He updated his for loop format to iterate more effiicnetly in the Refractored Code to cut time out of the analysis.  In the images above you can see the Refractored Code ran faster than the Original Code.  
 
 
+<p align="center">
+  <https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Initialize_Tickers.PNG>
+</p>
 
+ Original Code 2018            |  Refractored Code 2018
+:-------------------------:|:-------------------------:
+![](https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Original_Code_For_Loop_and_If_Statements.PNG)  |  ![](https://github.com/lauras521/stock-analysis/blob/c18fcd628b998817db367378643ab54d5242e156/Resources/Refractored_Code_For_Loop_and_If_Statements.PNG)
+
+  
 ## Summary: 
 ### In a summary statement, address the following questions.
 #### What are the advantages or disadvantages of refactoring code?
