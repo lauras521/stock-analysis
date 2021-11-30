@@ -25,7 +25,7 @@ Original Code 2018            |  Refactored Code 2018
 
 Steve first wrote an Original Code and then updated a Refactored Code to try and speed up the analysis.  In the images above, you can see the Refactored Code ran faster than the Original Code.  
 
-First all 12 tickers to be analyzed were identified in both codes.  Image below.  The main differences between the codes is highlighted in the table below.  If the code is too small to read the image can be clicked on to be enlarged. Steve updated his for loop format to iterate more efficiently in the Refactored Code to cut time out of the analysis. In the original code all 12 tickers were looped through and within each ticker loop all rows were looped through once to find tickerVolume, again to find startingPrice, and again to find EndingPrice.  Then data was outputed before moving to the next ticker.  In the new Refactored code the for loop isn't gone through as many times since the loop can identify when tickers have changed based on initializing the tickerIndex and not needing the AND statement to determine when ticker changes and to output the starting and ending price for a ticker.
+First all 12 tickers to be analyzed were identified in both codes.  Image below.  The main differences between the codes is highlighted in the table below.  If the code is too small to read the image can be clicked on to be enlarged. Steve updated his for loop format to iterate more efficiently in the Refactored Code to cut time out of the analysis. In the original code all 12 tickers were looped through and within each ticker loop all rows were looped through once to find tickerVolume, again to find startingPrice, and again to find EndingPrice.  Then data was outputed before moving to the next ticker.  In the new Refactored code the for loop isn't gone through as many times since the loop can identify when tickers have changed based on initializing the tickerIndex.  Additionally, the AND statement to determine when ticker changes and to output the starting and ending price for a ticker was cleaned up when using tickerIndex.
 
 
 <p align="center">
@@ -41,17 +41,17 @@ First all 12 tickers to be analyzed were identified in both codes.  Image below.
 ### In a summary statement, address the following questions.
 #### What are the advantages or disadvantages of refactoring code?
 &emsp; ***Advantages of Refactoring Code***
-* code can run faster
-* code looks cleaner for analysis by others and sharing/editing purposes
+* The code can run faster and more efficiently.  If you were using the code for a program to be commercialized etc. and computing space was necessary this efficiency can have a real cost benefit.
+* The code looks cleaner for analysis which would help with sharing/editing purposes for a group.
 
 &emsp; ***Disadvantages of Refactoring Code***
-* it takes time to refactor code so if there isn't a big benefit for doing the work it could take up unnecessary time
-* time is money in the workplace and lost time has real cost
+* It takes time to refactor code, so if there isn't a big benefit for doing the work it could take up unnecessary time.
+* Time is money in the workplace and lost time has real cost so if you don't get a big enough benefit it could be a waste of resources. 
 
 #### How do these pros and cons apply to refactoring the original VBA script?
 &emsp; ***Advantage of Refactoring the Stock_Analysis VBA Code***
-* The code did run faster and if you were to want to analyze all tickers in the stock market or multiple years of data this time savings could pay off.
+* For this analysis the code did run faster. If you were to want to analyze all tickers in the stock market (i.e. more than 12) or multiple years of data this time savings could be important.
 
 &emsp; ***Disadvantage of Refactoring the Stock_Analysis VBA Code***
-* The code only took 1 second to run in the first place so while it did run faster with the Refactored code for this analysis the change wasn't necessary for the time tradeoff.
+* The code only took ~1 second to run in the first place so while it did run faster with the Refactored code for this specific analysis the change wasn't necessary for the programming time tradeoff.
 
