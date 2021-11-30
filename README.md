@@ -1,4 +1,4 @@
-# Stock Analysis for Twelve Tickers in 2017 and 2018
+# Stock Analysis for Twelve Green Energy Tickers in 2017 and 2018
 ## Overview of Project: 
 Steve's parents are interested in investing in the stock market to support his new finance career.  They are passionate about Green Energy and want to invest in DAQO New Energy Corporation.  DAQO (ticker DQ) makes silicone wafers for solar panels.  Steve's parents did no research on the company's performance but since they met at Dairy Queen they decided the coincidence was good enough to invest.  Before investing, Steve wants to analyze Green Energy stocks to see if DAQO appears to be a good investment.  
 ### Purpose:
