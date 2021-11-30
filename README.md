@@ -10,7 +10,6 @@ In order to determine if DAQO is a good Green Energy stock to invest in Steve pu
 Reviewing this data should help highlight which Green Energy stocks are performing poorly and which are performing well. 
 
 ## Results: 
-### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 After running the analysis DQ does not appear to be the best option for investment.  It had a strong performance in 2017 increasing almost 200% with low overall trading volume. 11 of the 12 Green Energy Stocks in 2017 all had positive returns in 2017.  However, DQ decreased 63% in 2018 with triple the trading volume.  Only 2 stocks returned positive investments for the 2 consecutive years analyzed.  These stocks were ENPH and RUN.  ENPH had 2 very strong years of performance returning 130% in 2017 and 82% in 2018.  RUN returned 6% in 2017 and 84% in 2018.  Steve should suggest to his parents to first consider ENPH and then RUN over DQ.  
 
 Original Code 2017            |  Refactored Code 2017
