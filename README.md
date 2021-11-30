@@ -40,18 +40,18 @@ First all 12 tickers to be analyzed were identified in both codes.  Image below.
 ## Summary: 
 ### In a summary statement, address the following questions.
 #### What are the advantages or disadvantages of refactoring code?
-&emsp; Advantages of Refractoring Code
+&emsp; ***Advantages of Refractoring Code***
 * code can run faster
 * code looks cleaner for analysis by others and sharing/editing purposes
 
-&emsp; Disadvantages of Refractoring Code
+&emsp; ***Disadvantages of Refractoring Code***
 * it takes time to refractor code so if there isn't a big benefit for doing the work it could take up unnecessary time
 * time is money in the workplace and lost time has real cost
 
 #### How do these pros and cons apply to refactoring the original VBA script?
-&emsp; Advantage of Refractoring the Stock_Analysis VBA Code
+&emsp; ***Advantage of Refractoring the Stock_Analysis VBA Code***
 * The code did run faster and if you were to want to anlyze all tickers in the stock market or multiple years of data this time savings could pay off.
 
-&emsp; Disadvantage of Refractoring the Stock_Analysis VBA Code
-* The code only took 1 second to run in the first place so while it did run faster in the Refractored code for this analysis it wasn't necessary.
+&emsp; ***Disadvantage of Refractoring the Stock_Analysis VBA Code***
+* The code only took 1 second to run in the first place so while it did run faster with the Refractored code for this analysis the change wasn't necessary for the time tradeoff.
 
